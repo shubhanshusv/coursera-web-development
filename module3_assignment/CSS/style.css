@@ -1,0 +1,162 @@
+body{
+	font-family: 'Exo 2', sans-serif;
+	background-color: #EDC8C0;
+}
+
+#name {
+  text-align: left;
+}
+
+.navbar-header h1 { /* game name */
+
+  color: #000000;
+  
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: .75;
+  margin-left: 0px;
+  padding-left: 0px;
+ 
+
+}
+.navbar-header a:hover, .navbar-header a:focus {
+  text-decoration: none;
+}
+
+span .icon-bar {
+  
+  background-color: #ffffff;
+}
+
+.menu{
+
+  background-color: #eeeeee;
+  border-bottom: solid 1px;
+  border-color: #aaaaaa;
+}
+
+.menu-chicken{
+
+  border-top: solid 1px;
+  border-color: #aaaaaa;
+}
+
+.navbar-header button.navbar-toggle {
+
+    clear:both;
+    margin-top: -50px;
+
+
+}
+
+#chicken{
+
+
+}
+
+#beef{
+
+
+
+}
+
+#sushi{
+
+
+
+}
+
+#top{
+
+
+
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+  
+    div.col-lg-4{
+      
+      width: 26.66%;
+      margin-left: 5%;
+      margin-top: 25px;
+      margin-bottom: 50px;
+       background-color: #eeeeee;
+       border-radius: 3px;
+
+
+  }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1200px) {
+    
+
+    div.col-md-4{
+      
+      width: 26.66%;
+      margin-left: 5%;
+      margin-top: 25px;
+      margin-bottom: 50px;
+      background-color: #eeeeee;
+      border-radius: 3px;
+
+  }
+  
+
+
+
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 992px) {
+
+
+  div.col-sm-6{
+      
+      width: 42.5%;
+      margin-left: 5%;
+      margin-top: 25px;
+      background-color: #eeeeee;
+      border-radius: 3px;
+
+
+  }
+
+
+  div.col-sm-12{
+      
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 25px;
+      margin-bottom: 50px;
+      background-color: #eeeeee;
+      border-radius: 3px;
+  }
+
+
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 768px) {
+
+  div.col-xs-12{
+      
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      background-color: #eeeeee;
+      border-radius: 3px;
+  }
+
+
+
+}
