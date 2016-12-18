@@ -7,12 +7,13 @@ body{
   text-align: left;
 }
 
-.navbar-header h1 { /* game name */
+.navbar-brand a { /* game name */
 
   color: #000000;
   
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 2em;
   text-shadow: 1px 1px 1px #222;
   line-height: .75;
   margin-left: 0px;
@@ -20,7 +21,7 @@ body{
  
 
 }
-.navbar-header a:hover, .navbar-header a:focus {
+.navbar-brand a:hover, .navbar-header a:focus {
   text-decoration: none;
 }
 
@@ -45,7 +46,7 @@ span .icon-bar {
 .navbar-header button.navbar-toggle {
 
     clear:both;
-    margin-top: -50px;
+    margin-top: -40px;
 
 
 }
